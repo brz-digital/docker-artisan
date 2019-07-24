@@ -1,4 +1,4 @@
-FROM brzdigital/docker-nginx
+FROM brzdigital/docker-php
 
 MAINTAINER "Hugo Fabricio" <hugo@brzdigital.com.br>
 
