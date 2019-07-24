@@ -1,9 +1,9 @@
-FROM brzdigital/docker-php
+FROM brzdigital/docker-nginx
 
 MAINTAINER "Hugo Fabricio" <hugo@brzdigital.com.br>
 
-WORKDIR /application
-VOLUME /application
+WORKDIR /var/www
+VOLUME /var/www
 
 ENTRYPOINT ["php", "artisan"]
 CMD ["list"]
