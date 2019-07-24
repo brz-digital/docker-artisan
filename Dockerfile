@@ -1,4 +1,4 @@
-FROM brzdigital/docker-php
+FROM phpdockerio/php73-fpm:latest
 
 MAINTAINER "Hugo Fabricio" <hugo@brzdigital.com.br>
 
