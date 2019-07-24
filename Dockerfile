@@ -2,11 +2,8 @@ FROM brzdigital/docker-php
 
 MAINTAINER "Hugo Fabricio" <hugo@brzdigital.com.br>
 
-# Set workdir
-WORKDIR "/tmp"
-
-VOLUME ["/application"]
 WORKDIR /application
+VOLUME /application
 
 ENTRYPOINT ["php", "artisan"]
-CMD ["--help"]
+CMD ["list"]
